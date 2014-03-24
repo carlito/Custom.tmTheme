@@ -46,7 +46,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#0066ff50</string>
 			</dict>
 		</dict>
 
@@ -59,7 +59,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#c800a4</string>
 			</dict>
 		</dict>
 
@@ -73,7 +73,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>#c800a460</string>
 			</dict>
 		</dict>
 

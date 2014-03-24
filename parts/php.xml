@@ -12,12 +12,24 @@
 
 		<dict>
 			<key>name</key>
-			<string>PHP: Function Call</string>
+			<string>PHP: Functions</string>
 			<key>scope</key>
-			<string>meta.function-call.php</string>
+			<string>meta.function.php, meta.function-call.php, entity.name.function.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e74800</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP: Variables</string>
+			<key>scope</key>
+			<string>variable.other.php, punctuation.definition.variable.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#111111</string>
 			</dict>
 		</dict>

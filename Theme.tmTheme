@@ -140,7 +140,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#000</string>
+				<string>#111</string>
 			</dict>
 		</dict>
 
@@ -280,7 +280,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -292,7 +292,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -306,7 +306,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -436,7 +436,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#0066ff50</string>
 			</dict>
 		</dict>
 
@@ -449,7 +449,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#c800a4</string>
 			</dict>
 		</dict>
 
@@ -463,7 +463,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>#c800a460</string>
 			</dict>
 		</dict>
 
@@ -558,7 +558,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -596,7 +596,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -608,7 +608,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -620,7 +620,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -632,7 +632,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -661,7 +661,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -705,7 +705,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -717,7 +717,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -729,7 +729,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -741,7 +741,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -962,13 +962,25 @@ Green:  ##green
 
 		<dict>
 			<key>name</key>
-			<string>PHP: Function Call</string>
+			<string>PHP: Functions</string>
 			<key>scope</key>
-			<string>meta.function-call.php</string>
+			<string>meta.function.php, meta.function-call.php, entity.name.function.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e74800</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP: Variables</string>
+			<key>scope</key>
+			<string>variable.other.php, punctuation.definition.variable.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#111111</string>
 			</dict>
 		</dict>		
 		<dict>
