@@ -29,8 +29,6 @@ variable_prefix = '##'
 
 
 #before_file = '/* {filename} */' + "\n\n"
-success_msg = 'Files merged.'
-fail_msg    = 'Sorry dude, something is wrong.'
 #args        = ARGV;
 
 def merge(files, replacements)
@@ -64,9 +62,8 @@ def merge(files, replacements)
     output_file.puts formatted_output 
   end
 
-
-return true
+  puts 'Builded ' + output_file
 
 end
 
-puts merge(files, replacements) ? success_msg : fail_msg;
+puts merge(files, replacements)
