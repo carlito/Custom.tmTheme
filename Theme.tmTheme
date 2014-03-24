@@ -18,8 +18,6 @@ Green:  ##green
 	<key>settings</key>
 	<array>
 
-
-
 		<dict>
 			
 			<key>settings</key>
@@ -65,8 +63,6 @@ Green:  ##green
 			</dict>
 		</dict>
 		
-
-
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
@@ -106,8 +102,6 @@ Green:  ##green
 				<string>#ab8fbd</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Invalid - Deprecated</string>
@@ -136,8 +130,6 @@ Green:  ##green
 				<string>#f9f2ce</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Operators</string>
@@ -357,8 +349,6 @@ Green:  ##green
 				<string>#434343</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Strings: Escape Sequences</string>
@@ -398,9 +388,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
-		</dict>
-
-		<dict>
+		</dict>		<dict>
 			<key>name</key>
 			<string>HTML: Doctype Declaration</string>
 			<key>scope</key>
@@ -534,8 +522,6 @@ Green:  ##green
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
-
-
 		
 		<dict>
 			<key>name</key>
@@ -588,8 +574,6 @@ Green:  ##green
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Markup: Changed</string>
@@ -782,8 +766,6 @@ Green:  ##green
 			</dict>
 		</dict>
 
-
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Punctuation Separator</string>
@@ -795,19 +777,6 @@ Green:  ##green
 				<string/>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>Ruby Quoted STrings</string>
-			<key>scope</key>
-			<string>source.ruby string.quoted.double.ruby, source.ruby string.quoted.single.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>#0066ff</string>
-			</dict>
-		</dict>		
-
 		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
@@ -819,8 +788,6 @@ Green:  ##green
 				<string>#adadad</string>
 			</dict>
 		</dict>
-
-
 		
 		<dict>
 			<key>name</key>
@@ -865,8 +832,6 @@ Green:  ##green
 				<string>#434343</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Bracket Hightlighter: Tags</string>
@@ -889,9 +854,7 @@ Green:  ##green
 				<key>foreground</key>
 				<string>#638662</string>
 			</dict>
-		</dict>
-
-	<dict>
+		</dict>	<dict>
 		<key>name</key>
 		<string>SublimeLinter Warning</string>
 		<key>scope</key>
@@ -926,8 +889,6 @@ Green:  ##green
 			<string>#FFFFFF</string>
 		</dict>
 	</dict>
-
-
 		
 	
 	</array>
@@ -946,4 +907,3 @@ Green:  ##green
 </dict>
 	
 </plist>
-

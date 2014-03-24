@@ -1,6 +1,8 @@
 
 # Configuration
 
+file_name = 'Theme.tmTheme'
+
 replacements = {
   '##author'  => 'Carlito',
   '##red'     => '#e74800',
@@ -33,24 +35,23 @@ files = [
 
 require 'rexml/document'
 
-def build(files, replacements)
+def build(output_file_name, replacements, files)
   
   output = ''
-  output_file_name = 'Theme.tmTheme'
   
   self_location = File.dirname(__FILE__);
 
   files.each do|file|
 
     #before_file = before_file.gsub('{filename}', "#{file}")
-    file        = File.read(self_location + "/parts/#{file}")
+    file = File.read(self_location + "/parts/#{file}")
 
     # Wirft noch Fehler
     # replacements.each do|key, value|
     #   output = output + file.gsub(key, value)
     # end
     
-    output = output + file + "\n\n"
+    output = output + file
 
   end
 
@@ -69,5 +70,5 @@ def build(files, replacements)
 
 end
 
-puts build(files, replacements)
+puts build(file_name, replacements, files)
 
