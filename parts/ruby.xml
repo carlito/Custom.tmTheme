@@ -1,0 +1,12 @@
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Punctuation Separator</string>
+			<key>scope</key>
+			<string>punctuation.separator.object.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+			</dict>
+		</dict>

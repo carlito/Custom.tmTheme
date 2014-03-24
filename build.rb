@@ -19,6 +19,7 @@ files = [
   'html.xml',
   'css.xml',
   'markup.xml',
+  'ruby.xml',
   'php.xml',
   'diff.xml',
   'misc.xml',
@@ -29,7 +30,7 @@ files = [
 variable_prefix = '##'
 
 
-# Build method 
+# Build process 
 # (Don't change anything below if you're not sure what you're doing.)
 
 require 'rexml/document'

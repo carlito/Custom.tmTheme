@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><!--
 
-Red: 	#e74800
-Blue: 	#0066ff // vorher: #006cff
-Pink:   #c800a4
-Green:  #00bc2c
-
-##red
+Red: 	##red
+Blue: 	##blue
+Pink:   ##pink
+Green:  ##green
 
 -->
 <plist version='1.0'>
@@ -14,7 +12,7 @@ Green:  #00bc2c
 <dict>
 	
 	<key>name</key>
-	<string>Carlito</string>
+	<string>##author</string>
 	
 	<key>settings</key>
 	<array>
@@ -67,6 +65,7 @@ Green:  #00bc2c
 		</dict>
 		
 
+
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
@@ -80,6 +79,7 @@ Green:  #00bc2c
 				<string>#adadad</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Comments: Preprocessor</string>
@@ -93,6 +93,7 @@ Green:  #00bc2c
 				<string>#adadad</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Comments: Documentation Keyword</string>
@@ -104,6 +105,7 @@ Green:  #00bc2c
 				<string>#ab8fbd</string>
 			</dict>
 		</dict>
+
 
 		<dict>
 			<key>name</key>
@@ -135,7 +137,6 @@ Green:  #00bc2c
 		</dict>
 
 
-
 		<dict>
 			<key>name</key>
 			<string>Operators</string>
@@ -149,6 +150,7 @@ Green:  #00bc2c
 				<string>#000</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Keywords</string>
@@ -160,6 +162,7 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Types</string>
@@ -172,6 +175,7 @@ Green:  #00bc2c
 
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Language Constants</string>
@@ -183,6 +187,7 @@ Green:  #00bc2c
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variables</string>
@@ -196,6 +201,7 @@ Green:  #00bc2c
 				<string>#e74800</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variables: Punctuation</string>
@@ -209,6 +215,7 @@ Green:  #00bc2c
 				<string>#e74800</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Functions</string>
@@ -222,6 +229,7 @@ Green:  #00bc2c
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Classes</string>
@@ -234,6 +242,7 @@ Green:  #00bc2c
 
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Exceptions</string>
@@ -245,6 +254,7 @@ Green:  #00bc2c
 				<string>#f93232</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Sections</string>
@@ -256,6 +266,7 @@ Green:  #00bc2c
 				<string/>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Numbers</string>
@@ -267,6 +278,7 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
@@ -278,6 +290,7 @@ Green:  #00bc2c
 				<string>#000000</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Strings</string>
@@ -292,6 +305,7 @@ Green:  #00bc2c
 				<string>#000000</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Strings: Punctuation</string>
@@ -306,9 +320,6 @@ Green:  #00bc2c
 			</dict>
 		</dict>
 
-
-
-				
 		<dict>
 			<key>name</key>
 			<string>Support Functions</string>
@@ -320,6 +331,7 @@ Green:  #00bc2c
 				<string>bold</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Block Cursor</string>
@@ -334,7 +346,6 @@ Green:  #00bc2c
 			</dict>
 		</dict>
 
-
 		<dict>
 			<key>name</key>
 			<string>Embedded Source</string>
@@ -348,6 +359,7 @@ Green:  #00bc2c
 				<string>#434343</string>
 			</dict>
 		</dict>
+
 
 		<dict>
 			<key>name</key>
@@ -403,6 +415,7 @@ Green:  #00bc2c
 				<string>#cccccc</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>HTML: Tags</string>
@@ -418,9 +431,14 @@ Green:  #00bc2c
 		<!-- All Tag Names -->
 		<dict>
 			<key>name</key>
-			<string>HTML: Tags</string>
+			<string>HTML: Tag Names</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any, entity.name.tag.inline.any, entity.name.tag.other, entity.name.tag.structure.any</string>
+			<string>
+				entity.name.tag.block.any, 
+				entity.name.tag.inline.any, 
+				entity.name.tag.other, 
+				entity.name.tag.structure.any
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -433,7 +451,10 @@ Green:  #00bc2c
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+			<string>
+				punctuation.definition.tag.begin, 
+				punctuation.definition.tag.end
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -446,14 +467,18 @@ Green:  #00bc2c
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>meta.tag.block.any, meta.tag.inline.any, punctuation.separator.key-value, meta.tag.other</string>
+			<string>
+				meta.tag.block.any, 
+				meta.tag.inline.any, 
+				punctuation.separator.key-value, 
+				meta.tag.other
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#cccccc</string>
 			</dict>
 		</dict>
-
 
 		<dict>
 			<key>name</key>
@@ -468,6 +493,7 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>HTML: Tag Punctuation</string>
@@ -481,6 +507,7 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>HTML: Entities</string>
@@ -494,6 +521,7 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>HTML: Attribute Names</string>
@@ -505,11 +533,15 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>HTML: Attribute Values</string>
 			<key>scope</key>
-			<string>meta.tag string.quoted, meta.tag string.quoted constant.character.entity</string>
+			<string>
+				meta.tag string.quoted, 
+				meta.tag string.quoted constant.character.entity
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -521,11 +553,18 @@ Green:  #00bc2c
 			</dict>
 		</dict>
 
+
+		
 		<dict>
 			<key>name</key>
 			<string>CSS: Selectors</string>
 			<key>scope</key>
-			<string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css</string>
+			<string>
+				meta.selector, 
+				meta.selector entity, 
+				meta.selector entity punctuation, 
+				entity.name.tag.css
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -534,31 +573,40 @@ Green:  #00bc2c
 				<string>#0066ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>CSS: Property Names</string>
 			<key>scope</key>
-			<string>meta.property-name, support.type.property-name</string>
+			<string>
+				meta.property-name, 
+				support.type.property-name
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#c800a4</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>CSS: Property Values</string>
 			<key>scope</key>
-			<string>meta.property-value constant.numeric, meta.property-value constant, meta.property-value keyword</string>
+			<string>
+				meta.property-value constant.numeric, 
+				meta.property-value constant, 
+				meta.property-value keyword
+			</string>
 			<key>settings</key>
 			<dict>
-
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
+
 
 		<dict>
 			<key>name</key>
@@ -754,6 +802,19 @@ Green:  #00bc2c
 
 
 
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Punctuation Separator</string>
+			<key>scope</key>
+			<string>punctuation.separator.object.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string/>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
@@ -767,6 +828,7 @@ Green:  #00bc2c
 		</dict>
 
 
+		
 		<dict>
 			<key>name</key>
 			<string>Extra: Diff Range</string>
@@ -782,6 +844,7 @@ Green:  #00bc2c
 				<string>#434343</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Extra: Diff From</string>
@@ -795,6 +858,7 @@ Green:  #00bc2c
 				<string>#434343</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Extra: Diff To</string>
@@ -821,6 +885,7 @@ Green:  #00bc2c
 				<string>#2f6f9f</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Bracket Hightlighter: Curly</string>
@@ -834,47 +899,58 @@ Green:  #00bc2c
 		</dict>
 
 	<dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict>
+		<key>name</key>
+		<string>SublimeLinter Warning</string>
+		<key>scope</key>
+		<string>sublimelinter.mark.warning</string>
+		<key>settings</key>
+		<dict>
+			<key>foreground</key>
+			<string>#DDB700</string>
+		</dict>
+	</dict>
+
+	<dict>
+		<key>name</key>
+		<string>SublimeLinter Error</string>
+		<key>scope</key>
+		<string>sublimelinter.mark.error</string>
+		<key>settings</key>
+		<dict>
+			<key>foreground</key>
+			<string>#D02000</string>
+		</dict>
+	</dict>
+	
+	<dict>
+		<key>name</key>
+		<string>SublimeLinter Gutter Mark</string>
+		<key>scope</key>
+		<string>sublimelinter.gutter-mark</string>
+		<key>settings</key>
+		<dict>
+			<key>foreground</key>
+			<string>#FFFFFF</string>
+		</dict>
+	</dict>
+
 
 		</dict>
+	
 	</array>
 
+	<!-- ?
 	<key>uuid</key>
 	<string>BF4E1964-0DB9-4E88-8142-E8F52D7EDEEC</string>
+	-->
+
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
+
 	<key>semanticClass</key>
-	<string>theme.light.espresso_soda</string>
+	<string>theme.light.theme_name</string>
 
 </dict>
+	
 </plist>
 

@@ -1,12 +1,19 @@
+
 		</dict>
+	
 	</array>
 
+	<!-- ?
 	<key>uuid</key>
 	<string>BF4E1964-0DB9-4E88-8142-E8F52D7EDEEC</string>
+	-->
+
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
+
 	<key>semanticClass</key>
-	<string>theme.light.espresso_soda</string>
+	<string>theme.light.theme_name</string>
 
 </dict>
+	
 </plist>
