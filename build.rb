@@ -1,5 +1,13 @@
-require "rexml/document" 
 
+# Configuration
+
+replacements = {
+  '##author'  => 'Carlito',
+  '##red'     => '#e74800',
+  '##blue'    => '#0066ff',
+  '##pink'    => '#c800a4',
+  '##green'   => '#00bc2c'
+}
 
 files = [
   'head.xml',
@@ -18,18 +26,13 @@ files = [
   'foot.xml'
 ]
 
-replacements = {
-  '##red'   => '#e74800',
-  '##blue'  => '#0066ff',
-  '##pink'  => '#c800a4',
-  '##green' => '#00bc2c'
-}
-
 variable_prefix = '##'
 
 
-#before_file = '/* {filename} */' + "\n\n"
-#args        = ARGV;
+# Build method 
+# (Don't change anything below if you're not sure what you're doing.)
+
+require 'rexml/document'
 
 def merge(files, replacements)
   
@@ -50,13 +53,10 @@ def merge(files, replacements)
 
   end
 
-
   # Format XML
   formatted_output = REXML::Document.new(output)
   formatter = REXML::Formatters::Pretty.new
   formatter.compact = true
-  #formatter.write(formatted_output, $stdout)
-  
 
   File.open(output_file,'w') do |output_file|
     output_file.puts formatted_output 
@@ -67,3 +67,4 @@ def merge(files, replacements)
 end
 
 puts merge(files, replacements)
+
