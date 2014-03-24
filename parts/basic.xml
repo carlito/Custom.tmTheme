@@ -160,9 +160,6 @@
 			<string>constant.character, string</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				
-				<string>#fbe9ad1a</string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>

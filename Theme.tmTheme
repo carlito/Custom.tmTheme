@@ -5,8 +5,9 @@ Red: 	##red
 Blue: 	##blue
 Pink:   ##pink
 Green:  ##green
-
+    
 -->
+
 <plist version='1.0'>
 
 <dict>
@@ -16,7 +17,7 @@ Green:  ##green
 	
 	<key>settings</key>
 	<array>
-		<dict>
+
 
 
 		<dict>
@@ -298,9 +299,6 @@ Green:  ##green
 			<string>constant.character, string</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				
-				<string>#fbe9ad1a</string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
@@ -433,12 +431,7 @@ Green:  ##green
 			<key>name</key>
 			<string>HTML: Tag Names</string>
 			<key>scope</key>
-			<string>
-				entity.name.tag.block.any, 
-				entity.name.tag.inline.any, 
-				entity.name.tag.other, 
-				entity.name.tag.structure.any
-			</string>
+			<string>entity.name.tag.block.any, entity.name.tag.inline.any, entity.name.tag.other, entity.name.tag.structure.any</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -451,10 +444,7 @@ Green:  ##green
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>
-				punctuation.definition.tag.begin, 
-				punctuation.definition.tag.end
-			</string>
+			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -467,12 +457,7 @@ Green:  ##green
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>
-				meta.tag.block.any, 
-				meta.tag.inline.any, 
-				punctuation.separator.key-value, 
-				meta.tag.other
-			</string>
+			<string>meta.tag.block.any, meta.tag.inline.any, punctuation.separator.key-value, meta.tag.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -538,10 +523,7 @@ Green:  ##green
 			<key>name</key>
 			<string>HTML: Attribute Values</string>
 			<key>scope</key>
-			<string>
-				meta.tag string.quoted, 
-				meta.tag string.quoted constant.character.entity
-			</string>
+			<string>meta.tag string.quoted, meta.tag string.quoted constant.character.entity</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -802,7 +784,6 @@ Green:  ##green
 
 
 
-
 		<dict>
 			<key>name</key>
 			<string>Ruby Punctuation Separator</string>
@@ -814,6 +795,18 @@ Green:  ##green
 				<string/>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Quoted STrings</string>
+			<key>scope</key>
+			<string>source.ruby string.quoted.double.ruby, source.ruby string.quoted.single.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>		
 
 		<dict>
 			<key>name</key>
@@ -935,7 +928,7 @@ Green:  ##green
 	</dict>
 
 
-		</dict>
+		
 	
 	</array>
 

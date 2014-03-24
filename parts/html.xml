@@ -29,12 +29,7 @@
 			<key>name</key>
 			<string>HTML: Tag Names</string>
 			<key>scope</key>
-			<string>
-				entity.name.tag.block.any, 
-				entity.name.tag.inline.any, 
-				entity.name.tag.other, 
-				entity.name.tag.structure.any
-			</string>
+			<string>entity.name.tag.block.any, entity.name.tag.inline.any, entity.name.tag.other, entity.name.tag.structure.any</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -47,10 +42,7 @@
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>
-				punctuation.definition.tag.begin, 
-				punctuation.definition.tag.end
-			</string>
+			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -63,12 +55,7 @@
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>
-				meta.tag.block.any, 
-				meta.tag.inline.any, 
-				punctuation.separator.key-value, 
-				meta.tag.other
-			</string>
+			<string>meta.tag.block.any, meta.tag.inline.any, punctuation.separator.key-value, meta.tag.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -134,10 +121,7 @@
 			<key>name</key>
 			<string>HTML: Attribute Values</string>
 			<key>scope</key>
-			<string>
-				meta.tag string.quoted, 
-				meta.tag string.quoted constant.character.entity
-			</string>
+			<string>meta.tag string.quoted, meta.tag string.quoted constant.character.entity</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>

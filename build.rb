@@ -27,24 +27,23 @@ files = [
   'foot.xml'
 ]
 
-# Not used so far
-# variable_prefix = '##'
-
 
 # Build process 
 # (Don't change anything below if you're not sure what you're doing.)
 
 require 'rexml/document'
 
-def merge(files, replacements)
+def build(files, replacements)
   
   output = ''
-  output_file = 'Theme.tmTheme'
+  output_file_name = 'Theme.tmTheme'
   
+  self_location = File.dirname(__FILE__);
+
   files.each do|file|
-    
+
     #before_file = before_file.gsub('{filename}', "#{file}")
-    file        = File.read("parts/#{file}")
+    file        = File.read(self_location + "/parts/#{file}")
 
     # Wirft noch Fehler
     # replacements.each do|key, value|
@@ -60,13 +59,15 @@ def merge(files, replacements)
   formatter = REXML::Formatters::Pretty.new
   formatter.compact = true
 
+  output_file = self_location + '/' + output_file_name
+
   File.open(output_file,'w') do |output_file|
     output_file.puts formatted_output 
+    puts 'Builded ' + output_file_name
+    return true
   end
-
-  puts 'Builded ' + output_file
 
 end
 
-puts merge(files, replacements)
+puts build(files, replacements)
 
