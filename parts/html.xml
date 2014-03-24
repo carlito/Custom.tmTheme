@@ -1,0 +1,130 @@
+		<dict>
+			<key>name</key>
+			<string>HTML: Doctype Declaration</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype, meta.tag.sgml.html punctuation.definition.tag.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Tags</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+
+		<!-- All Tag Names -->
+		<dict>
+			<key>name</key>
+			<string>HTML: Tags</string>
+			<key>scope</key>
+			<string>entity.name.tag.block.any, entity.name.tag.inline.any, entity.name.tag.other, entity.name.tag.structure.any</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string />
+			</dict>
+		</dict>
+
+		<!-- Tag Brackets -->
+		<dict>
+			<key>name</key>
+			<string>HTML: Tags</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+
+		<!-- = -->
+		<dict>
+			<key>name</key>
+			<string>HTML: Tags</string>
+			<key>scope</key>
+			<string>meta.tag.block.any, meta.tag.inline.any, punctuation.separator.key-value, meta.tag.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>HTML: Attribute Punctuation</string>
+			<key>scope</key>
+			<string>meta.tag string punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Tag Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Entities</string>
+			<key>scope</key>
+			<string>constant.character.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Attribute Names</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Attribute Values</string>
+			<key>scope</key>
+			<string>meta.tag string.quoted, meta.tag string.quoted constant.character.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff</string>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>

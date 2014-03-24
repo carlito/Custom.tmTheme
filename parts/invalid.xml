@@ -1,0 +1,28 @@
+		<dict>
+			<key>name</key>
+			<string>Invalid - Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#efcfcf</string>
+				<key>fontStyle</key>
+				<string>italic underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid - Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f93232</string>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#f9f2ce</string>
+			</dict>
+		</dict>

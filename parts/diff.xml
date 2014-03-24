@@ -1,0 +1,41 @@
+		<dict>
+			<key>name</key>
+			<string>Extra: Diff Range</string>
+			<key>scope</key>
+			<string>meta.diff.range, meta.diff.index, meta.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#eaf2f5</string>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#434343</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Extra: Diff From</string>
+			<key>scope</key>
+			<string>meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffdddd</string>
+				<key>foreground</key>
+				<string>#434343</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Extra: Diff To</string>
+			<key>scope</key>
+			<string>meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ddffdd</string>
+				<key>foreground</key>
+				<string>#434343</string>
+			</dict>
+		</dict>

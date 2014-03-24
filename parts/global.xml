@@ -1,0 +1,46 @@
+
+		<dict>
+			
+			<key>settings</key>
+			<dict>
+
+				<!-- Background color -->
+				<key>background</key>
+				<string>#FFFFFF</string>
+
+				<!-- Text color (the alpha changes only the tab line color) -->
+				<key>foreground</key>
+				<string>#11111130</string>
+
+				<!-- Indentaion Guides -->
+				<key>guide</key>
+				<string>#11111120</string>
+
+				<!-- Any effect? -->
+				<key>invisibles</key>
+				<string>#111111</string>
+
+				<!-- Cursor -->
+				<key>caret</key>
+				<string>#f0c</string>
+
+				<!-- Gutter text -->
+				<key>gutterForeground</key>
+				<string>#cdcdcd</string>
+
+				<!-- Current line highlight in gutter -->
+				<key>lineHighlight</key>
+				<string>#e2e2e2</string>
+
+				<key>selection</key>
+				<string>#C2E8FF</string>
+				<key>selectionBorder</key>
+				<string>#C2E8FF</string>
+				<key>findHighlight</key>
+                <string>#000</string>
+                <key>findHighlightForeground</key>
+                <string>#fff</string>
+
+			</dict>
+		</dict>
+		

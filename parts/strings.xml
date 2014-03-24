@@ -1,0 +1,40 @@
+		<dict>
+			<key>name</key>
+			<string>Strings: Escape Sequences</string>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				
+				<string>#fbe9adcc</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings: Regular Expressions</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#699d36</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings: Symbols</string>
+			<key>scope</key>
+			<string>constant.other.symbol</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e8ffd5</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>

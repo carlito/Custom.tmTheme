@@ -1,0 +1,23 @@
+
+		<dict>
+			<key>name</key>
+			<string>Bracket Hightlighter: Tags</string>
+			<key>scope</key>
+			<string>brackethighlighter.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2f6f9f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Hightlighter: Curly</string>
+			<key>scope</key>
+			<string>brackethighlighter.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#638662</string>
+			</dict>
+		</dict>

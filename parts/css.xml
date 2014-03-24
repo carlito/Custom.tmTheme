@@ -1,0 +1,38 @@
+		<dict>
+			<key>name</key>
+			<string>CSS: Selectors</string>
+			<key>scope</key>
+			<string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Property Names</string>
+			<key>scope</key>
+			<string>meta.property-name, support.type.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c800a4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Property Values</string>
+			<key>scope</key>
+			<string>meta.property-value constant.numeric, meta.property-value constant, meta.property-value keyword</string>
+			<key>settings</key>
+			<dict>
+
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>
