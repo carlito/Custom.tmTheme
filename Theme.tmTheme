@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+
+Red: 	#e74800
+Blue: 	#0066ff // vorher: #006cff
+Pink:   #c800a4
+Green:  #00bc2c
+
+-->
 <plist version="1.0">
 <dict>
 	<key>name</key>
