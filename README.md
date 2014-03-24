@@ -5,6 +5,6 @@ I'll focus on HTML, CSS, SCSS, Ruby, PHP, Javascript, Markdown.
  
 Let me know if you're aware of any documentation on available theming options.
 
-# Build theme file
+## Build theme file
 
 	ruby build.rb
