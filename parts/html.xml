@@ -55,7 +55,7 @@
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>meta.tag.block.any, meta.tag.inline.any, punctuation.separator.key-value, meta.tag.other</string>
+			<string>meta.tag.block.any, meta.tag.inline.any, meta.tag.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -67,13 +67,13 @@
 			<key>name</key>
 			<string>HTML: Attribute Punctuation</string>
 			<key>scope</key>
-			<string>meta.tag string punctuation</string>
+			<string>meta.tag.block.any.html, meta.tag.inline.any.html, punctuation.separator.key-value.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>#c800a4</string>
 			</dict>
 		</dict>
 
@@ -113,7 +113,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>#c800a4</string>
 			</dict>
 		</dict>
 
@@ -130,5 +130,17 @@
 				<string />
 				<key>foreground</key>
 				<string>#00bc2c</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>HTML: Text Basic</string>
+			<key>scope</key>
+			<string>text.html.basic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#444</string>
 			</dict>
 		</dict>

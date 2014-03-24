@@ -20,6 +20,7 @@ files = [
   'strings.xml',
   'html.xml',
   'css.xml',
+  'scss.xml',
   'markup.xml',
   'ruby.xml',
   'php.xml',

@@ -1,0 +1,109 @@
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Property Values</string>
+			<key>scope</key>
+			<string>meta.property-value.scss, string.quoted.double.scss, string.quoted.single.scss, punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, punctuation.definition.constant.scss, constant.numeric.scss, keyword.other.unit.scss, constant.other.color.rgb-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>	
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Pseudo Element</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-element.scss, entity.other.attribute-name.pseudo-class.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<!-- Argument in mixin call -->
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Variable Parameter Url</string>
+			<key>scope</key>
+			<string>variable.parameter.url.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>
+
+		<!-- Mixin name -->
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Variable Parameter Url</string>
+			<key>scope</key>
+			<string>entity.name.function.scss, support.function.misc.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#e74800</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>SCSS: Brackets</string>
+			<key>scope</key>
+			<string>punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Separator Key-Value</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Apostrophe</string>
+			<key>scope</key>
+			<string>punctuation.terminator.rule.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: At-Rules</string>
+			<key>scope</key>
+			<string>meta.at-rule.include.scss, meta.at-rule.mixin.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.import.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+

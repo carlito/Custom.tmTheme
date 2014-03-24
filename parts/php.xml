@@ -9,3 +9,15 @@
 				<string>#adadad</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP: Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e74800</string>
+			</dict>
+		</dict>

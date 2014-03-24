@@ -445,7 +445,7 @@ Green:  ##green
 			<key>name</key>
 			<string>HTML: Tags</string>
 			<key>scope</key>
-			<string>meta.tag.block.any, meta.tag.inline.any, punctuation.separator.key-value, meta.tag.other</string>
+			<string>meta.tag.block.any, meta.tag.inline.any, meta.tag.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -457,13 +457,13 @@ Green:  ##green
 			<key>name</key>
 			<string>HTML: Attribute Punctuation</string>
 			<key>scope</key>
-			<string>meta.tag string punctuation</string>
+			<string>meta.tag.block.any.html, meta.tag.inline.any.html, punctuation.separator.key-value.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>#c800a4</string>
 			</dict>
 		</dict>
 
@@ -503,7 +503,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>#c800a4</string>
 			</dict>
 		</dict>
 
@@ -522,17 +522,23 @@ Green:  ##green
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
-		
+
+		<dict>
+			<key>name</key>
+			<string>HTML: Text Basic</string>
+			<key>scope</key>
+			<string>text.html.basic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#444</string>
+			</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>CSS: Selectors</string>
 			<key>scope</key>
-			<string>
-				meta.selector, 
-				meta.selector entity, 
-				meta.selector entity punctuation, 
-				entity.name.tag.css
-			</string>
+			<string>meta.selector.css, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -544,12 +550,23 @@ Green:  ##green
 
 		<dict>
 			<key>name</key>
+			<string>CSS: Pseudo Element</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string/>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>CSS: Property Names</string>
 			<key>scope</key>
-			<string>
-				meta.property-name, 
-				support.type.property-name
-			</string>
+			<string>meta.property-name, support.type.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -561,11 +578,7 @@ Green:  ##green
 			<key>name</key>
 			<string>CSS: Property Values</string>
 			<key>scope</key>
-			<string>
-				meta.property-value constant.numeric, 
-				meta.property-value constant, 
-				meta.property-value keyword
-			</string>
+			<string>meta.property-value.css, meta.property-value constant.numeric, meta.property-value constant, meta.property-value keyword, string.quoted.double.css, string.quoted.single.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, constant.other.color.rgb-value.css, punctuation.definition.constant.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -574,6 +587,164 @@ Green:  ##green
 				<string>#00bc2c</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS: Brackets</string>
+			<key>scope</key>
+			<string>punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS: Separator Key-Value</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS: Apostrophe</string>
+			<key>scope</key>
+			<string>punctuation.terminator.rule.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS: At-Rules</string>
+			<key>scope</key>
+			<string>meta.at-rule.include.css, meta.at-rule.media.css, keyword.control.at-rule.include.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Property Values</string>
+			<key>scope</key>
+			<string>meta.property-value.scss, string.quoted.double.scss, string.quoted.single.scss, punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, punctuation.definition.constant.scss, constant.numeric.scss, keyword.other.unit.scss, constant.other.color.rgb-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string/>
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>	
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Pseudo Element</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-element.scss, entity.other.attribute-name.pseudo-class.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string/>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<!-- Argument in mixin call -->
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Variable Parameter Url</string>
+			<key>scope</key>
+			<string>variable.parameter.url.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string/>
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>
+
+		<!-- Mixin name -->
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Variable Parameter Url</string>
+			<key>scope</key>
+			<string>entity.name.function.scss, support.function.misc.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string/>
+				<key>foreground</key>
+				<string>#e74800</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>SCSS: Brackets</string>
+			<key>scope</key>
+			<string>punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Separator Key-Value</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: Apostrophe</string>
+			<key>scope</key>
+			<string>punctuation.terminator.rule.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS: At-Rules</string>
+			<key>scope</key>
+			<string>meta.at-rule.include.scss, meta.at-rule.mixin.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.import.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Markup: Changed</string>
@@ -788,7 +959,18 @@ Green:  ##green
 				<string>#adadad</string>
 			</dict>
 		</dict>
-		
+
+		<dict>
+			<key>name</key>
+			<string>PHP: Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e74800</string>
+			</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>Extra: Diff Range</string>
