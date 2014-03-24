@@ -27,7 +27,8 @@ files = [
   'foot.xml'
 ]
 
-variable_prefix = '##'
+# Not used so far
+# variable_prefix = '##'
 
 
 # Build process 
