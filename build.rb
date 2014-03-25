@@ -101,20 +101,22 @@ files = [
 
 require 'rexml/document'
 
-def build(output_file_name, replacements, files)
+def build(file_name, replacements, files)
 
   output = ''
   self_location = File.dirname(__FILE__)
 
-  suffix = '##';
-
+  # Merge files
   files.each do|file|
     file = File.read(self_location + "/parts/#{file}")
-    replacements.each do|key, value|
-      variable = suffix + key
-      file = file.gsub("#{variable}", value)
-    end
     output += file
+  end
+
+  # Replacements
+  suffix = '##';
+  replacements.each do|key, value|
+    variable = suffix + key
+    output = output.gsub("#{variable}", value)
   end
 
   # Format XML
@@ -122,11 +124,13 @@ def build(output_file_name, replacements, files)
   formatter = REXML::Formatters::Pretty.new
   formatter.compact = true
 
-  output_file = self_location + '/' + output_file_name
+  # Path to file
+  output_file = self_location + '/' + file_name
 
+  # Write file
   File.open(output_file,'w') do |output_file|
     output_file.puts formatted_output
-    puts 'Builded ' + output_file_name
+    puts 'Builded ' + file_name
   end
 
 end
