@@ -44,25 +44,17 @@ def build(output_file_name, replacements, files)
   self_location = File.dirname(__FILE__)
 
   files.each do|file|
-
-    #before_file = before_file.gsub('{filename}', "#{file}")
     file = File.read(self_location + "/parts/#{file}")
-
-    # Funktioniert noch nicht
     replacements.each do|key, value|
-      output += file.gsub(key, value)
-      # puts key + ' - ' + value
+      file = file.gsub("#{key}", value)
     end
-
-    # output = output + file
-
+    output += file
   end
 
-
   # Format XML
-  # formatted_output = REXML::Document.new(output)
-  # formatter = REXML::Formatters::Pretty.new
-  # formatter.compact = true
+  formatted_output = REXML::Document.new(output)
+  formatter = REXML::Formatters::Pretty.new
+  formatter.compact = true
 
   output_file = self_location + '/' + output_file_name
 
