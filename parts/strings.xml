@@ -12,6 +12,7 @@
 				<string>bold</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Strings: Regular Expressions</string>
@@ -25,6 +26,7 @@
 				<string>#699d36</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Strings: Symbols</string>

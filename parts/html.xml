@@ -8,7 +8,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#adadad</string>
 			</dict>
 		</dict>
 
@@ -141,6 +141,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#444</string>
+				<string>#333</string>
 			</dict>
 		</dict>

@@ -4,11 +4,13 @@
 file_name = 'Theme.tmTheme'
 
 replacements = {
-  '##author'  => 'Carlito',
-  '##red'     => '#e74800',
-  '##blue'    => '#0066ff',
-  '##pink'    => '#c800a4',
-  '##green'   => '#00bc2c'
+  '##author'      => 'Carlito',
+  '##red'         => '#e74800', # Variables, Functions
+  '##blue'        => '#0066ff', # Tags, Selectors
+  '##pink'        => '#c800a4', 
+  '##green'       => '#00bc2c', # Values
+  '##grey-light'  => '#adadad', # Comments
+  '##grey-dark'   => '#666666'
 }
 
 files = [
@@ -47,24 +49,27 @@ def build(output_file_name, replacements, files)
     #before_file = before_file.gsub('{filename}', "#{file}")
     file = File.read(self_location + "/parts/#{file}")
 
-    # Wirft noch Fehler
-    # replacements.each do|key, value|
-    #   output = output + file.gsub(key, value)
-    # end
+    # Funktioniert noch nicht
+    replacements.each do|key, value|
+      output += file.gsub(key, value)
+      puts key + ' - ' + value 
+    end
     
-    output = output + file
+
+    # output = output + file
 
   end
 
+
   # Format XML
-  formatted_output = REXML::Document.new(output)
-  formatter = REXML::Formatters::Pretty.new
-  formatter.compact = true
+  # formatted_output = REXML::Document.new(output)
+  # formatter = REXML::Formatters::Pretty.new
+  # formatter.compact = true
 
   output_file = self_location + '/' + output_file_name
 
   File.open(output_file,'w') do |output_file|
-    output_file.puts formatted_output 
+    output_file.puts output 
     puts 'Builded ' + output_file_name
     return true
   end
