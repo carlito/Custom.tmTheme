@@ -6,7 +6,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#adadad</string>
+				<string>##php-tags</string>
 			</dict>
 		</dict>
 
@@ -18,7 +18,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e74800</string>
+				<string>##php-functions</string>
 			</dict>
 		</dict>
 

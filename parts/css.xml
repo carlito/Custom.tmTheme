@@ -1,4 +1,4 @@
-		
+
 		<dict>
 			<key>name</key>
 			<string>CSS: Selectors</string>
@@ -9,7 +9,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##css-selectors</string>
 			</dict>
 		</dict>
 
@@ -23,7 +23,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##css-pseudoelement</string>
 			</dict>
 		</dict>
 
@@ -35,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>##css-property-names</string>
 			</dict>
 		</dict>
 
@@ -49,7 +49,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#00bc2c</string>
+				<string>##css-property-values</string>
 			</dict>
 		</dict>
 
@@ -61,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##css-brackets</string>
 			</dict>
 		</dict>
 
@@ -73,7 +73,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##css-separator-key-value</string>
 			</dict>
 		</dict>
 
@@ -85,7 +85,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##css-punctuation.terminator</string>
 			</dict>
 		</dict>
 
@@ -97,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##css-at-rules</string>
 			</dict>
 		</dict>
 

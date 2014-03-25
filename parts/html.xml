@@ -8,7 +8,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#adadad</string>
+				<string>##html-doctype</string>
 			</dict>
 		</dict>
 
@@ -20,7 +20,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##html-tags</string>
 			</dict>
 		</dict>
 
@@ -33,33 +33,33 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string />
+				<string>##html-tag-names</string>
 			</dict>
 		</dict>
 
 		<!-- Tag Brackets -->
 		<dict>
 			<key>name</key>
-			<string>HTML: Tags</string>
+			<string>HTML: Tag Brackets</string>
 			<key>scope</key>
 			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff50</string>
+				<string>##html-tag-brackets</string>
 			</dict>
 		</dict>
 
 		<!-- = -->
 		<dict>
 			<key>name</key>
-			<string>HTML: Tags</string>
+			<string>HTML: =</string>
 			<key>scope</key>
 			<string>meta.tag.block.any, meta.tag.inline.any, meta.tag.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>##pink</string>
 			</dict>
 		</dict>
 
@@ -73,7 +73,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#c800a460</string>
+				<string>##html-attribute-punctuation</string>
 			</dict>
 		</dict>
 
@@ -87,7 +87,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##html-tag-punctuation</string>
 			</dict>
 		</dict>
 
@@ -101,7 +101,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##html-entities</string>
 			</dict>
 		</dict>
 
@@ -113,7 +113,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>##html-attribute-names</string>
 			</dict>
 		</dict>
 
@@ -129,7 +129,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#00bc2c</string>
+				<string>##html-attribute-values</string>
 			</dict>
 		</dict>
 
@@ -141,6 +141,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#333</string>
+				<string>##html-text</string>
 			</dict>
 		</dict>

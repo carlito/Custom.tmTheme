@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><!--
 
-<!--
-
-Red: 	#e74800
-Blue: 	#0066ff
-Pink:   #c800a4
-Green:  #00bc2c
+Red: 	##red
+Blue: 	##blue
+Pink:   ##pink
+Green:  ##green
     
 -->
 
-<plist version="1.0">
+<plist version='1.0'>
 
 <dict>
 	
@@ -21,19 +19,19 @@ Green:  #00bc2c
 	<array>
 
 		<dict>
-			
+
 			<key>settings</key>
 			<dict>
 
 				<!-- Background color -->
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#ffffff</string>
 
 				<!-- Text color (the alpha changes only the tab line color) -->
 				<key>foreground</key>
 				<string>#11111130</string>
 
-				<!-- Indentaion Guides -->
+				<!-- Indentation Guides -->
 				<key>guide</key>
 				<string>#11111120</string>
 
@@ -43,7 +41,7 @@ Green:  #00bc2c
 
 				<!-- Cursor -->
 				<key>caret</key>
-				<string>#f0c</string>
+				<string>#ff00ac</string>
 
 				<!-- Gutter text -->
 				<key>gutterForeground</key>
@@ -54,17 +52,17 @@ Green:  #00bc2c
 				<string>#e2e2e2</string>
 
 				<key>selection</key>
-				<string>#C2E8FF</string>
+				<string>#c2e8ff</string>
 				<key>selectionBorder</key>
-				<string>#C2E8FF</string>
+				<string>#c2e8ff</string>
 				<key>findHighlight</key>
-                <string>#000</string>
+                <string>#111111</string>
                 <key>findHighlightForeground</key>
-                <string>#fff</string>
+                <string>#ffffff</string>
 
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
@@ -127,7 +125,7 @@ Green:  #00bc2c
 				<key>background</key>
 				<string>#f93232</string>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#f9f2ce</string>
 			</dict>
@@ -140,9 +138,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
-				<string>#111</string>
+				<string>##black</string>
 			</dict>
 		</dict>
 
@@ -154,7 +152,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##blue</string>
 			</dict>
 		</dict>
 
@@ -166,7 +164,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##blue</string>
 
 			</dict>
 		</dict>
@@ -179,7 +177,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00bc2c</string>
+				<string>##green</string>
 			</dict>
 		</dict>
 
@@ -191,9 +189,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
-				<string>#e74800</string>
+				<string>##red</string>
 			</dict>
 		</dict>
 
@@ -205,9 +203,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
-				<string>#e74800</string>
+				<string>##red</string>
 			</dict>
 		</dict>
 
@@ -219,9 +217,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
-				<string>#00bc2c</string>
+				<string>##green</string>
 			</dict>
 		</dict>
 
@@ -233,7 +231,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>##pink</string>
 
 			</dict>
 		</dict>
@@ -258,7 +256,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 			</dict>
 		</dict>
 
@@ -270,7 +268,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0066ff</string>
+				<string>##blue</string>
 			</dict>
 		</dict>
 
@@ -282,7 +280,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##black</string>
 			</dict>
 		</dict>
 
@@ -294,7 +292,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##black</string>
 			</dict>
 		</dict>
 
@@ -306,9 +304,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
-				<string>#111111</string>
+				<string>##black</string>
 			</dict>
 		</dict>
 
@@ -346,7 +344,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#434343</string>
 			</dict>
@@ -374,7 +372,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#699d36</string>
 			</dict>
@@ -400,7 +398,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#adadad</string>
 			</dict>
@@ -427,14 +425,14 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string />
+				<string>#0066ff</string>
 			</dict>
 		</dict>
 
 		<!-- Tag Brackets -->
 		<dict>
 			<key>name</key>
-			<string>HTML: Tags</string>
+			<string>HTML: Tag Brackets</string>
 			<key>scope</key>
 			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
 			<key>settings</key>
@@ -447,13 +445,13 @@ Green:  #00bc2c
 		<!-- = -->
 		<dict>
 			<key>name</key>
-			<string>HTML: Tags</string>
+			<string>HTML: =</string>
 			<key>scope</key>
 			<string>meta.tag.block.any, meta.tag.inline.any, meta.tag.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>##pink</string>
 			</dict>
 		</dict>
 
@@ -465,9 +463,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
-				<string>#c800a460</string>
+				<string>#ff00ac60</string>
 			</dict>
 		</dict>
 
@@ -479,7 +477,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#0066ff</string>
 			</dict>
@@ -493,7 +491,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#0066ff</string>
 			</dict>
@@ -507,7 +505,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>#ff00ac</string>
 			</dict>
 		</dict>
 
@@ -521,7 +519,7 @@ Green:  #00bc2c
 				<key>background</key>
 				<string>#ffffff</string>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#00bc2c</string>
 			</dict>
@@ -535,9 +533,9 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#333</string>
+				<string>#333333</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS: Selectors</string>
@@ -546,7 +544,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#0066ff</string>
 			</dict>
@@ -560,7 +558,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#111111</string>
 			</dict>
@@ -574,7 +572,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c800a4</string>
+				<string>#ff00ac</string>
 			</dict>
 		</dict>
 
@@ -586,7 +584,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#00bc2c</string>
 			</dict>
@@ -649,11 +647,11 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#00bc2c</string>
 			</dict>
-		</dict>	
+		</dict>
 
 		<dict>
 			<key>name</key>
@@ -663,7 +661,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#111111</string>
 			</dict>
@@ -679,7 +677,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#00bc2c</string>
 			</dict>
@@ -695,12 +693,12 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#e74800</string>
 			</dict>
 		</dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>SCSS: Brackets</string>
@@ -796,7 +794,7 @@ Green:  #00bc2c
 				<key>background</key>
 				<string>#f93232</string>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#f9f2ce</string>
 			</dict>
@@ -811,7 +809,7 @@ Green:  #00bc2c
 				<key>background</key>
 				<string>#ddffdd</string>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
@@ -949,7 +947,7 @@ Green:  #00bc2c
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 			</dict>
 		</dict>
 		<dict>
@@ -997,7 +995,7 @@ Green:  #00bc2c
 				<key>background</key>
 				<string>#eaf2f5</string>
 				<key>fontStyle</key>
-				<string />
+				<string/>
 				<key>foreground</key>
 				<string>#434343</string>
 			</dict>
