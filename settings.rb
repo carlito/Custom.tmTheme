@@ -1,6 +1,4 @@
 
-# Configuration
-
 file_name  = 'Theme.tmTheme'
 author     = 'Carlito'
 
@@ -30,21 +28,6 @@ replacements = {
   'editor-find-highlight-background' => black,
   'editor-find-highlight-foreground' => white,
 
-  'global-operators'                 => black,
-  'global-keywords'                  => blue,
-  'global-types'                     => blue,
-  'global-constants'                 => green,
-  'global-variables'                 => red,
-  'global-functions'                 => green,
-  'global-classes'                   => pink,
-  'global-exceptions'                => '#f93232',
-  'global-sections'                  => '',
-  'global-numbers'                   => blue,
-  'global-punctuation'               => black,
-  'global-strings'                   => black,
-  'global-string-punctuation'        => black,
-  'global-embedded-source'           => grey_light,
-
   'html-doctype'                     => grey_light,
   'html-tags'                        => blue,
   'html-tag-names'                   => blue,
@@ -67,19 +50,18 @@ replacements = {
 
   'scss-mixin-names'                 => red,
 
-  'ruby-quoted'                      => green,
-
   'php-tags'                         => grey_light,
   'php-functions'                    => red,
   'php-variables'                    => black
-
 
 }
 
 files = [
   'head.xml',
-  'editor.xml',
   'global.xml',
+  'comments.xml',
+  'invalid.xml',
+  'basic.xml',
   'strings.xml',
   'html.xml',
   'css.xml',
@@ -87,49 +69,8 @@ files = [
   'markup.xml',
   'ruby.xml',
   'php.xml',
-  'comments.xml',
-  'invalid.xml',
   'diff.xml',
   'misc.xml',
   'linter.xml',
   'foot.xml'
 ]
-
-
-# Build process
-# (Don't change anything below if you're not sure what you're doing.)
-
-require 'rexml/document'
-
-def build(output_file_name, replacements, files)
-
-  output = ''
-  self_location = File.dirname(__FILE__)
-
-  suffix = '##';
-
-  files.each do|file|
-    file = File.read(self_location + "/parts/#{file}")
-    replacements.each do|key, value|
-      variable = suffix + key
-      file = file.gsub("#{variable}", value)
-    end
-    output += file
-  end
-
-  # Format XML
-  formatted_output = REXML::Document.new(output)
-  formatter = REXML::Formatters::Pretty.new
-  formatter.compact = true
-
-  output_file = self_location + '/' + output_file_name
-
-  File.open(output_file,'w') do |output_file|
-    output_file.puts formatted_output
-    puts 'Builded ' + output_file_name
-  end
-
-end
-
-puts build(file_name, replacements, files)
-

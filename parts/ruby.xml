@@ -10,3 +10,27 @@
 				<string />
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>source.ruby.embedded.source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-variables</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Quoted</string>
+			<key>scope</key>
+			<string>string.quoted.single.ruby, string.quoted.double.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##ruby-quoted</string>
+			</dict>
+		</dict>

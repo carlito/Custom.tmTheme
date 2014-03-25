@@ -1,0 +1,45 @@
+
+		<dict>
+
+			<key>settings</key>
+			<dict>
+
+				<!-- Background color -->
+				<key>background</key>
+				<string>##editor-background</string>
+
+				<!-- Text color (the alpha changes only the tab line color) -->
+				<key>foreground</key>
+				<string>##editor-foreground</string>
+
+				<!-- Indentation Guides -->
+				<key>guide</key>
+				<string>##editor-guide</string>
+
+				<!-- Any effect? -->
+				<key>invisibles</key>
+				<string>##editor-invisibles</string>
+
+				<!-- Cursor -->
+				<key>caret</key>
+				<string>##editor-caret</string>
+
+				<!-- Gutter text -->
+				<key>gutterForeground</key>
+				<string>##editor-gutter-text</string>
+
+				<!-- Current line highlight in gutter -->
+				<key>lineHighlight</key>
+				<string>##editor-line-highlight</string>
+
+				<key>selection</key>
+				<string>##editor-selection-background</string>
+				<key>selectionBorder</key>
+				<string>##editor-selection-border</string>
+				<key>findHighlight</key>
+                <string>##editor-find-highlight-background</string>
+                <key>findHighlightForeground</key>
+                <string>##editor-find-highlight-foreground</string>
+
+			</dict>
+		</dict>

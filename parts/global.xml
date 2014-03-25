@@ -1,45 +1,221 @@
 
 		<dict>
-
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
-
-				<!-- Background color -->
-				<key>background</key>
-				<string>##editor-background</string>
-
-				<!-- Text color (the alpha changes only the tab line color) -->
+				<key>fontStyle</key>
+				<string />
 				<key>foreground</key>
-				<string>##editor-foreground</string>
+				<string>##global-operators</string>
+			</dict>
+		</dict>
 
-				<!-- Indentation Guides -->
-				<key>guide</key>
-				<string>##editor-guide</string>
+		<dict>
+			<key>name</key>
+			<string>Keywords</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-keywords</string>
+			</dict>
+		</dict>
 
-				<!-- Any effect? -->
-				<key>invisibles</key>
-				<string>##editor-invisibles</string>
+		<dict>
+			<key>name</key>
+			<string>Types</string>
+			<key>scope</key>
+			<string>storage.type, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-types</string>
+			</dict>
+		</dict>
 
-				<!-- Cursor -->
-				<key>caret</key>
-				<string>##editor-caret</string>
+		<dict>
+			<key>name</key>
+			<string>Language Constants</string>
+			<key>scope</key>
+			<string>constant.language, support.constant, variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-constants</string>
+			</dict>
+		</dict>
 
-				<!-- Gutter text -->
-				<key>gutterForeground</key>
-				<string>##editor-gutter-text</string>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable, support.variable, variable punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>##global-variables</string>
+			</dict>
+		</dict>
 
-				<!-- Current line highlight in gutter -->
-				<key>lineHighlight</key>
-				<string>##editor-line-highlight</string>
+<!--
+		<dict>
+			<key>name</key>
+			<string>Variables: Punctuation</string>
+			<key>scope</key>
+			<string>variable punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>##red</string>
+			</dict>
+		</dict>
+-->
 
-				<key>selection</key>
-				<string>##editor-selection-background</string>
-				<key>selectionBorder</key>
-				<string>##editor-selection-border</string>
-				<key>findHighlight</key>
-                <string>##editor-find-highlight-background</string>
-                <key>findHighlightForeground</key>
-                <string>##editor-find-highlight-foreground</string>
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function, entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>##global-functions</string>
+			</dict>
+		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Classes</string>
+			<key>scope</key>
+			<string>entity.name.type, entity.other.inherited-class, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-classes</string>
+
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Exceptions</string>
+			<key>scope</key>
+			<string>entity.name.exception</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f93232</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Sections</string>
+			<key>scope</key>
+			<string>entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>##global-sections</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric, constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-numbers</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##global-punctuation</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Strings</string>
+			<key>scope</key>
+			<string>constant.character, string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>##black</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Strings: Punctuation</string>
+			<key>scope</key>
+			<string>string punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>##global-string-punctuation</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Support Functions</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Block Cursor</string>
+			<key>scope</key>
+			<string>block_cursor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+				<key>background</key>
+				<string>#7413cc</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>string source, text source</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>##global-embedded-source</string>
 			</dict>
 		</dict>

@@ -65,73 +65,6 @@ Green:  ##green
 
 		<dict>
 			<key>name</key>
-			<string>Comments</string>
-			<key>scope</key>
-			<string>comment, comment punctuation</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#adadad</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>Comments: Preprocessor</string>
-			<key>scope</key>
-			<string>comment.block.preprocessor</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#adadad</string>
-			</dict>
-		</dict>
-		
-		<dict>
-			<key>name</key>
-			<string>Comments: Documentation Keyword</string>
-			<key>scope</key>
-			<string>keyword.other.phpdoc.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#666666</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid - Deprecated</string>
-			<key>scope</key>
-			<string>invalid.deprecated</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#efcfcf</string>
-				<key>fontStyle</key>
-				<string>italic underline</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid - Illegal</string>
-			<key>scope</key>
-			<string>invalid.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#f93232</string>
-				<key>fontStyle</key>
-				<string/>
-				<key>foreground</key>
-				<string>#f9f2ce</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
 			<string>keyword.operator</string>
@@ -140,7 +73,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>##black</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -152,7 +85,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>##blue</string>
+				<string>#0066ff</string>
 			</dict>
 		</dict>
 
@@ -164,8 +97,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>##blue</string>
-
+				<string>#0066ff</string>
 			</dict>
 		</dict>
 
@@ -177,7 +109,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>##green</string>
+				<string>#00bc2c</string>
 			</dict>
 		</dict>
 
@@ -185,16 +117,17 @@ Green:  ##green
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable, support.variable</string>
+			<string>variable, support.variable, variable punctuation</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>##red</string>
+				<string>#e74800</string>
 			</dict>
 		</dict>
 
+<!--
 		<dict>
 			<key>name</key>
 			<string>Variables: Punctuation</string>
@@ -203,11 +136,12 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string/>
+				<string />
 				<key>foreground</key>
 				<string>##red</string>
 			</dict>
 		</dict>
+-->
 
 		<dict>
 			<key>name</key>
@@ -219,7 +153,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>##green</string>
+				<string>#00bc2c</string>
 			</dict>
 		</dict>
 
@@ -231,7 +165,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>##pink</string>
+				<string>#ff00ac</string>
 
 			</dict>
 		</dict>
@@ -268,7 +202,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>##blue</string>
+				<string>#0066ff</string>
 			</dict>
 		</dict>
 
@@ -280,7 +214,7 @@ Green:  ##green
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>##black</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -306,7 +240,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>##black</string>
+				<string>#111111</string>
 			</dict>
 		</dict>
 
@@ -346,7 +280,7 @@ Green:  ##green
 				<key>fontStyle</key>
 				<string/>
 				<key>foreground</key>
-				<string>#434343</string>
+				<string>#adadad</string>
 			</dict>
 		</dict>
 		<dict>
@@ -950,7 +884,30 @@ Green:  ##green
 				<string/>
 			</dict>
 		</dict>
+
 		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>source.ruby.embedded.source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e74800</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Ruby Quoted</string>
+			<key>scope</key>
+			<string>string.quoted.single.ruby, string.quoted.double.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00bc2c</string>
+			</dict>
+		</dict>		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
 			<key>scope</key>
@@ -983,6 +940,73 @@ Green:  ##green
 			<dict>
 				<key>foreground</key>
 				<string>#111111</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment, comment punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#adadad</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Comments: Preprocessor</string>
+			<key>scope</key>
+			<string>comment.block.preprocessor</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#adadad</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Comments: Documentation Keyword</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#666666</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid - Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#efcfcf</string>
+				<key>fontStyle</key>
+				<string>italic underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid - Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f93232</string>
+				<key>fontStyle</key>
+				<string/>
+				<key>foreground</key>
+				<string>#f9f2ce</string>
 			</dict>
 		</dict>		
 		<dict>
