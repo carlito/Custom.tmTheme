@@ -7,6 +7,6 @@ I'm focusing on HTML, CSS, SCSS, Ruby, PHP, Javascript, Markdown.
 
 ## Usage
 
-Edit the XML files in /parts and build your theme file:
+Edit the settings in build.rb or the XML files in /parts and build your theme file:
 
 	ruby build.rb
