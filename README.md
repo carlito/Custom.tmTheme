@@ -1,9 +1,9 @@
-# A syntax theme framework for Sublime Text 3 & Textmate
+# A syntax theme framework for Sublime Text & Textmate
 
-*It's just a start. The theme quite messy and inconsistent at the moment. Let me know if you're aware of any documentation on available theming options.*
+*It's just a start. The generated theme is still inconsistent at the moment. Let me know if you're aware of any documentation on available theming options.*
 
 The goal is a framework for easier .tmTheme creation.
-I'm focusing on HTML, CSS, SCSS, Ruby, PHP, Javascript, Markdown. 
+I'm focusing on HTML, CSS, SCSS, Ruby, PHP, Javascript, Markdown.
 
 ## Usage
 

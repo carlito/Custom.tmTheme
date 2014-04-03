@@ -1,7 +1,7 @@
 
 # Configuration
 
-file_name  = 'Theme.tmTheme'
+file_name  = 'Custom.tmTheme'
 author     = 'Carlito'
 
 red        = '#e74800'
